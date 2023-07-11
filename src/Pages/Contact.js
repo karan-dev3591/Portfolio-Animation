@@ -53,10 +53,10 @@ const Contact = () => {
           
           <p>
             <ListGroup className='mx-5 mt-3' horizontal>
-              <ListGroupItem><a href='https://www.linkedin.com/in/karan-pa-2a2a521bb/' target='_blank'>Linkedin</a></ListGroupItem>
-              <ListGroupItem><a href=''>Instagram</a></ListGroupItem>
-              <ListGroupItem><a href=''>Xinder</a></ListGroupItem>
-              <ListGroupItem><a href='https://github.com/karan-dev3591' target='_blank'>Github</a></ListGroupItem>
+              <ListGroupItem><a href='https://www.linkedin.com/in/karan-pa-2a2a521bb/' >Linkedin</a></ListGroupItem>
+              {/* <ListGroupItem><a href=''>Instagram</a></ListGroupItem>
+              <ListGroupItem><a href=''>Xinder</a></ListGroupItem> */}
+              <ListGroupItem><a href='https://github.com/karan-dev3591' >Github</a></ListGroupItem>
             </ListGroup>
           </p>
         </Col>
