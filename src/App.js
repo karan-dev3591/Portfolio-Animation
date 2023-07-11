@@ -6,7 +6,7 @@ import About from './Pages/About';
 import { Project } from './Pages/Project';
 import Contact from './Pages/Contact';
 import Header from './Components/Header';
-import { AnimatePresence } from 'framer-motion';
+
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       
         <Header/>
         <Container>
-          <AnimatePresence mode='wait' >
+      
         <Routes Location = {Location} key={Location.pathname}>
           <Route path='/' element ={<Home/>} ></Route>
           <Route path='/about' element ={<About/>} ></Route>
@@ -25,7 +25,7 @@ function App() {
           <Route path='/contact' element ={<Contact/>} ></Route>
         </Routes>
 
-     </AnimatePresence>
+ 
 
      </Container>
     </div>
